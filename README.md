@@ -1,8 +1,11 @@
 # Introduction
 
-Hi, My name is Geoffrey Knox, and this is my submission for the TMC technical test.
+Hi, My name is Geoffrey Knox, and this was my submission for the TMC (The Miles Consultancy) technical test.
 
 In the root level of this project are a few different folders - most importantly the `api` and `frontend` folders. The `api` folder contains the FastAPI portion of the test, written using the [uv](https://docs.astral.sh/uv/) project manager. The `frontend` folder contains a [NextJS](https://nextjs.org/) application that can interact with the API. Also in the root level of the project are docker files for creating the images and building/starting containers with compose. The Dockerfiles for each application exist in their own respective folders.
+
+## Note
+I'm genuinely frustrated with how this process turned out. It wasted hours of my time and never even yielded a single interview to discuss the reasoning behind my approach. The only feedback I received was that "one or two things stood out" with no explanation beyond that. This is not a good way to treat candidates and it offers zero opportunity for growth on either side. Frankly, I have to ask: does TMC even know what they want? I solved the (flawed) tech test essentially perfectly, but somehow that wasn't enough. The double standard is intensely palpable: *"our process can be flawed, but you must be absolutely perfect and more!"*. Apparently the real puzzle wasn't the technical test, it was guessing what TMC actually wanted.
 
 # Requirements
 - Docker
